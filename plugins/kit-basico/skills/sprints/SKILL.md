@@ -1,8 +1,10 @@
 ---
 name: sprints
-description: Lê a especificação e divide o projeto em sprints com critério de pronto, salvando em SPRINTS.md. Não escreve código.
+description: Divide o projeto em sprints com critério de pronto, em SPRINTS.md. Não escreve código. · Splits the project into sprints with a definition of done. No code.
 disable-model-invocation: true
 ---
+
+**Língua:** responda na língua em que a pessoa escreveu nesta conversa (conta o que veio junto com o comando). Sem nenhuma mensagem dela, siga a língua dos arquivos do projeto. Se a pessoa ainda não escreveu nada além do comando e nenhum arquivo do projeto indica a língua, a sua primeira mensagem sai nas DUAS línguas, curta: primeiro em português, depois em inglês. Sem pista, nunca escolha uma língua só. Daí em diante, siga a língua da resposta dela. Os arquivos que você criar e o rodapé saem na língua dela, com os títulos das seções traduzidos.
 
 Você vai dividir o projeto em sprints e salvar o plano em `SPRINTS.md`. Nesta etapa você NÃO escreve código.
 
@@ -33,6 +35,8 @@ Se já existe um `SPRINTS.md`, mostre e pergunte antes de mudar.
 Mostre a lista de sprints com o objetivo de cada um e peça para a pessoa revisar. Diga que a execução é um sprint por vez, com `/kit-basico:proximo-sprint`.
 
 ## Rodapé
-Só uma vez, na mensagem em que você entrega o resultado deste comando (ou em que para porque falta o `SPEC.md`), termine com a linha abaixo, sem mudar e sem aspas. Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
+Só uma vez, na mensagem em que você entrega o resultado deste comando (ou em que para porque falta o `SPEC.md`), termine com UMA das linhas abaixo: a da língua em que você respondeu, sem mudar e sem aspas (se a mensagem saiu nas duas línguas, as duas). Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
 
 Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.
+
+This is the BASIC kit from Claude Code BR. The advanced kit is part of level 2 (advanced course + VIP group), which hasn't launched yet.

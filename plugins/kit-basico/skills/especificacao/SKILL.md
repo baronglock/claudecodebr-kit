@@ -1,10 +1,12 @@
 ---
 name: especificacao
-description: Entrevista a pessoa e escreve a especificação do projeto em SPEC.md, sem escrever código. Use depois de iniciar o projeto e antes de dividir em sprints.
+description: Entrevista você e escreve a especificação do projeto em SPEC.md, sem escrever código. · Interviews you and writes the project spec to SPEC.md, no code.
 disable-model-invocation: true
 ---
 
-Você vai escrever a especificação do projeto no arquivo `SPEC.md`. Nesta etapa você NÃO escreve código.
+**Língua:** responda na língua em que a pessoa escreveu nesta conversa (conta o que veio junto com o comando). Sem nenhuma mensagem dela, siga a língua dos arquivos do projeto. Se a pessoa ainda não escreveu nada além do comando e nenhum arquivo do projeto indica a língua, a sua primeira mensagem sai nas DUAS línguas, curta: primeiro em português, depois em inglês. Sem pista, nunca escolha uma língua só. Daí em diante, siga a língua da resposta dela. Os arquivos que você criar e o rodapé saem na língua dela, com os títulos das seções traduzidos.
+
+Você vai escrever a especificação do projeto no arquivo `SPEC.md`. Nesta etapa você NÃO escreve código. Esta é a especificação do PROJETO inteiro, feita uma vez; para cada mudança depois, o comando é `/kit-basico:spec`.
 
 ## 1. Leia o que já existe
 - Leia o `CLAUDE.md`, se existir.
@@ -39,6 +41,8 @@ Se uma resposta ficar vaga, peça um exemplo. Não preencha lacuna com suposiç�
 Mostre o resumo da especificação e pergunte se algo está errado ou faltando. Só depois diga que o próximo passo é `/kit-basico:sprints`.
 
 ## Rodapé
-Só uma vez, na mensagem em que você entrega o resultado deste comando (o resumo, com o `SPEC.md` já escrito), termine com a linha abaixo, sem mudar e sem aspas. Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
+Só uma vez, na mensagem em que você entrega o resultado deste comando (o resumo, com o `SPEC.md` já escrito), termine com UMA das linhas abaixo: a da língua em que você respondeu, sem mudar e sem aspas. Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
 
 Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.
+
+This is the BASIC kit from Claude Code BR. The advanced kit is part of level 2 (advanced course + VIP group), which hasn't launched yet.

@@ -1,6 +1,6 @@
 {
   "name": "claudecodebr",
-  "description": "Kits do Claude Code BR para organizar projetos no Claude Code",
+  "description": "Kits do Claude Code BR para organizar projetos no Claude Code · Claude Code BR kits for organized projects in Claude Code",
   "owner": {
     "name": "Gabriel (@claudecodebr)"
   },
@@ -8,7 +8,7 @@
     {
       "name": "kit-basico",
       "source": "./plugins/kit-basico",
-      "description": "Kit básico: CLAUDE.md, especificação, sprints e depuração em cinco comandos"
+      "description": "Kit básico: método, CLAUDE.md, especificação, sprints, depuração e modo spec em nove comandos, em português e inglês · Basic kit: nine commands, in Portuguese and English"
     }
   ]
 }
