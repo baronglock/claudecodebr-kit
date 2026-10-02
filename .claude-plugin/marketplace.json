@@ -1,0 +1,14 @@
+{
+  "name": "claudecodebr",
+  "description": "Kits do Claude Code BR para organizar projetos no Claude Code",
+  "owner": {
+    "name": "Gabriel (@claudecodebr)"
+  },
+  "plugins": [
+    {
+      "name": "kit-basico",
+      "source": "./plugins/kit-basico",
+      "description": "Kit básico: CLAUDE.md, especificação, sprints e depuração em cinco comandos"
+    }
+  ]
+}
