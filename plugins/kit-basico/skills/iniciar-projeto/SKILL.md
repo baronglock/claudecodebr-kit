@@ -8,6 +8,7 @@ Você vai preparar esta pasta para um projeto organizado. Fale em português sim
 
 ## 1. Olhe antes de escrever
 - Liste os arquivos da pasta atual.
+- Se existe um `.env`, NÃO abra nem leia esse arquivo: ele guarda segredos. O passo 4 diz como pegar só os nomes das variáveis.
 - Se já existe um `CLAUDE.md`, mostre o que ele tem e pergunte se a pessoa quer completar o arquivo. Nunca apague nem substitua o que já está lá.
 
 ## 2. Faça as cinco perguntas, uma de cada vez
@@ -19,7 +20,7 @@ Espere a resposta de cada uma antes de fazer a próxima. Se a pessoa disser «ai
 5. Em que ponto o projeto está hoje?
 
 ## 3. Escreva o CLAUDE.md
-Na raiz da pasta, com estas seções, preenchidas só com o que a pessoa respondeu. Não invente.
+Na raiz da pasta, com estas seções, preenchidas só com o que a pessoa respondeu. Não invente: nada de tarefa, sugestão ou solução que ela não disse. O que ela não respondeu fica como «ainda não sei». Em «Estado atual», as três linhas do modelo mostram o formato; escreva ali só o que ela respondeu na pergunta 5.
 
 ```
 # Contexto do projeto: <nome>
@@ -41,10 +42,14 @@ Na raiz da pasta, com estas seções, preenchidas só com o que a pessoa respond
 
 ## 4. Proteja os segredos
 - Se não existe `.gitignore`, crie um com as linhas `.env`, `.env.*` e `!.env.example`. Se já existe, acrescente só as linhas que faltam.
-- Se existe um `.env`, crie `.env.example` com os NOMES das variáveis e os valores vazios. Nunca copie um valor.
+- Se existe um `.env`, crie `.env.example` só com os NOMES das variáveis, cada um seguido de `=` e mais nada (exemplo: `API_KEY=`). Nunca copie um valor: todos ficam vazios, sem exceção, mesmo os que parecem inofensivos (porta, endereço, nome de usuário).
+- Para pegar os nomes, não abra o `.env` inteiro: use um comando que mostre só o que vem antes do `=` em cada linha. Assim os valores nem entram na conversa.
 - Se a pasta é um repositório git e o `.env` já foi commitado, avise com destaque: a chave precisa ser trocada.
 
 ## 5. Diga o que foi feito
 Liste os arquivos criados ou alterados e diga que o próximo passo é `/kit-basico:especificacao`.
 
-Termine a resposta com esta linha, sem mudar: «Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.»
+## Rodapé
+Só uma vez, na mensagem em que você entrega o resultado deste comando, termine com a linha abaixo, sem mudar e sem aspas. Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
+
+Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.

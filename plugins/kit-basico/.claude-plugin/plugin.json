@@ -1,7 +1,7 @@
 {
   "name": "kit-basico",
   "description": "Kit básico do Claude Code BR: cinco comandos para começar um projeto organizado (CLAUDE.md, especificação, sprints, execução por sprint e depuração).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Gabriel (@claudecodebr)"
   }

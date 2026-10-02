@@ -38,4 +38,7 @@ Se uma resposta ficar vaga, peça um exemplo. Não preencha lacuna com suposiç�
 ## 4. Mostre e confirme
 Mostre o resumo da especificação e pergunte se algo está errado ou faltando. Só depois diga que o próximo passo é `/kit-basico:sprints`.
 
-Termine a resposta com esta linha, sem mudar: «Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.»
+## Rodapé
+Só uma vez, na mensagem em que você entrega o resultado deste comando (o resumo, com o `SPEC.md` já escrito), termine com a linha abaixo, sem mudar e sem aspas. Em mensagem que só faz pergunta e espera a resposta, não ponha esta linha.
+
+Este é o kit BÁSICO do Claude Code BR. O kit avançado faz parte do nível 2 (curso avançado + grupo VIP), que ainda vai ser lançado.
